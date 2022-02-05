@@ -1,0 +1,193 @@
+body {
+  font-family: Arial !important;
+  overflow-y: scroll;
+}
+
+.form-cent {
+  margin-top: 2vh;
+}
+.field {
+  margin: 0;
+  width: 53%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#input-btn {
+  margin-top: 2vh;
+  font-size: 15px;
+  background-color: #f0f0f0;
+  border: solid;
+  border-width: 1px;
+  border-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 4%;
+  padding-top: 1.7%;
+  padding-bottom: 1.7%;
+}
+
+#input-btn:hover {
+  border-color: #b3b3b3;
+}
+#input-btn-img {
+  position: absolute;
+  top: 62.5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 15px !important;
+  margin-top: 2vh;
+  font-size: 15px;
+  background-color: #f0f0f0;
+  border: solid;
+  border-width: 1px;
+  border-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 1%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+#input-btn-img:hover {
+  border-color: #b3b3b3;
+}
+
+.button-center {
+  display: block;
+  position: absolute;
+  top: 62.5%;
+  left: 50%;
+  width: 25.9%;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 15px !important;
+}
+.google-image {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 30%;
+}
+#exampleInputEmail1:hover {
+  /* border-width: 2px; */
+  border-color: #fff;
+  box-shadow: 0px 1px 5px #b3b3b3;
+}
+
+#exampleInputEmail1:active,
+#exampleInputEmail1:focus {
+  outline: 0px;
+  -webkit-appearance: none;
+  box-shadow: none;
+  border-color: #fff;
+  box-shadow: 0px 1px 5px #b3b3b3;
+}
+#exampleInputEmail1 {
+  border-radius: 30px;
+  padding: 0.6rem;
+  padding-left: 8%;
+  padding-right: 8%;
+  font-size: 17px;
+}
+#search-button {
+  position: absolute;
+  padding-top: 3px;
+  width: 5%;
+  left: 4%;
+}
+
+#voice-button {
+  position: absolute;
+  width: 2.5%;
+  left: 95%;
+}
+
+.top-right {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+.apps-image {
+  width: 2%;
+  margin-left: 30px;
+}
+.login-image {
+  width: 3%;
+  margin-left: 20px;
+}
+.top-links {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+}
+.top-links:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* FOR ADVANCE SEARCH HTML PAGE */
+
+.topleft-img {
+  width: 10%;
+  float: left;
+  margin-left: 1%;
+}
+.heading {
+  float: left;
+  margin-top: 3%;
+  margin-left: -7%;
+  font-size: 20px;
+  color: #c71f1f;
+}
+.line-hr {
+  clear: both;
+  margin-top: 7%;
+}
+
+#exampleFormControlInput1 {
+  padding: 0.05rem;
+  border-radius: 0px;
+}
+#exampleFormControlInput1:focus,
+#exampleFormControlInput1:active {
+  outline: 1px;
+  -webkit-appearance: none;
+  box-shadow: none;
+}
+.row {
+  padding-top: 0.5%;
+  padding-bottom: 1%;
+  font-size: 13px;
+}
+.container-fluid {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.col-md-3 {
+  font-size: 11px;
+  color: #746d6d;
+}
+#advance-button {
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #4285f4;
+  float: right;
+  border-color: rgb(62, 123, 192);
+  border-radius: 2px;
+}
+#advance-button:hover {
+  /* background-color: rgb(33, 82, 138); */
+  border-color: rgb(33, 82, 138);
+}
+#advance-button:focus,
+#advance-button:active {
+  outline: 0px;
+  -webkit-appearance: none;
+  box-shadow: none;
+  border-color: #fff;
+}
