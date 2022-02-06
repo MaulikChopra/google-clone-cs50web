@@ -138,15 +138,11 @@ body {
   margin-left: 1%;
 }
 .heading {
-  float: left;
+  justify-content: left;
+  margin-left: 5%;
   margin-top: 3%;
-  margin-left: -7%;
   font-size: 20px;
   color: #c71f1f;
-}
-.line-hr {
-  clear: both;
-  margin-top: 7%;
 }
 
 #exampleFormControlInput1 {
@@ -169,7 +165,7 @@ body {
 }
 .container-fluid {
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 4%;
 }
 .col-md-3 {
   font-size: 11px;
