@@ -150,8 +150,10 @@ body {
 }
 
 #exampleFormControlInput1 {
-  padding: 0.05rem;
+  padding: 0.25rem;
   border-radius: 0px;
+  font-size: 14px;
+  padding-left: 1%;
 }
 #exampleFormControlInput1:focus,
 #exampleFormControlInput1:active {
