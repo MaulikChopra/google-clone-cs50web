@@ -152,12 +152,13 @@ body {
 #exampleFormControlInput1 {
   padding: 0.25rem;
   border-radius: 0px;
-  font-size: 14px;
+  font-size: 13px;
   padding-left: 1%;
 }
 #exampleFormControlInput1:focus,
 #exampleFormControlInput1:active {
-  outline: 1px;
+  border-width: 1px;
+  border-color: #4285f4;
   -webkit-appearance: none;
   box-shadow: none;
 }
